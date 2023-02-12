@@ -6,14 +6,23 @@
 
 public class array {
 
-    public static int[] createArray (int arraySize){
+    private int[] newArray;
 
-        int[] newArray = new int[arraySize];
+    public array (int arraySize) {
+
+        newArray = new int[arraySize];
         for (int i = 0; i < newArray.length; i++){
             newArray[i] = (int) (Math.round(Math.random() * 100));
         }
-        return newArray;
 
     }
 
+    public int getSize(){
+        return newArray.length;
+    }
+
+    public int getElement(int i){
+        return newArray[i];
+    }
+    
 }
