@@ -1,3 +1,10 @@
+/** 
+ * This program calculates the average of the array and displays
+ * how each element differs from the average
+ * @author Ata Oğuz
+ * Student ID: 22202453
+ */
+
 public class AverageDeviation {
 
     public static int findAverage(int[] inputArray) {
