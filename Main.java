@@ -12,7 +12,7 @@ public class Main {
         
         Scanner in = new Scanner(System.in);
 
-        int op = 0;
+        int op = -1;
         int[] ar = {};
         String s = "";
 
@@ -60,6 +60,6 @@ public class Main {
                 System.out.println("sum of even indexes is: " + evenSum);
             }
         }
-        while(op != -1);
+        while(op != 0);
     }
 }
